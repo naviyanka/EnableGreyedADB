@@ -1,0 +1,9 @@
+*.class
+*.dex
+*.jks
+classes/
+out/
+compiled_res.zip
+app-unaligned.apk
+app-aligned.apk
+*.idsig
