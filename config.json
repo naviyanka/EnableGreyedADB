@@ -1,0 +1,31 @@
+{
+    "dock_apps": [
+        "com.google.android.youtube.tv",
+        "com.debloat.castlauncher",
+        "zank.remote",
+        "com.android.vending",
+        "com.android.tv.settings"
+    ],
+    "columns": 5,
+    "app_library": true,
+    "app_library_button": true,
+    "library_ok_opens": true,
+    "tile_menu": true,
+    "launcher_settings_button": true,
+    "show_network_pill": true,
+    "wifi_status_color": true,
+    "wifi_status_warnings": true,
+    "show_greeting": true,
+    "dock_title": true,
+    "ambient_glow": true,
+    "reduced_motion": true,
+    "advanced_effects": false,
+    "animations": true,
+    "clock_format": "12",
+    "hidden_apps": [
+        "com.gathin.tvhome",
+        "com.debloat.adbaccess",
+        "com.debloat.adbenable",
+        "moe.shizuku.privileged.api"
+    ]
+}

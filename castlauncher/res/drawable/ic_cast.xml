@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Dark background -->
+    <path
+        android:fillColor="#1a1a2e"
+        android:pathData="M0,0h320v180H0z" />
+    <!-- Cast icon - screen shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,50 L200,50 Q210,50 210,60 L210,120 Q210,130 200,130 L170,130 L170,120 L195,120 L195,60 L125,60 L125,75 L115,75 L115,60 Q115,50 120,50 Z" />
+    <!-- Cast waves -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M115,130 A0,0 0 0,1 115,130"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:pathData="M115,110 A20,20 0 0,1 135,130" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:pathData="M115,90 A40,40 0 0,1 155,130" />
+    <!-- Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M115,126 A4,4 0 1,1 115,134 A4,4 0 1,1 115,126" />
+</vector>

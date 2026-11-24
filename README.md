@@ -24,6 +24,7 @@ This same approach may work on other Technicolor-based Android TV devices where 
 - [How It Works](#how-it-works)
 - [Building from Source](#building-from-source)
 - [Troubleshooting](#troubleshooting)
+- [Next Steps: Debloat with CleanYourTV](#next-steps-debloat-with-cleanyourtv)
 - [Disclaimer](#disclaimer)
 
 ---
@@ -309,6 +310,27 @@ keytool -genkeypair -keystore "$P/ks.jks" -alias a \
 | Airtel Xstream Smart Box | Technicolor HSW4026ATL | Android 11 (SDK 30) | Working |
 
 If you test on another device, please open an issue or PR with results.
+
+---
+
+## Next Steps: Debloat with CleanYourTV
+
+Once ADB is enabled, you can fully debloat and customize your Airtel Xstream Smart Box using the [CleanYourTV](https://github.com/Gathin23/cleanyourtv) launcher.
+
+We've written a **complete step-by-step debloat guide** that covers:
+
+- Installing and configuring CleanYourTV launcher
+- Safely disabling ~40 bloatware packages (Airtel, telemetry, Google, OEM)
+- Performance optimization for the 1.5GB RAM device
+- Locking down OTA updates to prevent reverting changes
+- Fixing Chromecast (Cast receiver not initializing after debloat)
+- Launcher dock and home screen configuration
+- A ready-to-use **Claude prompt** that automates the entire process
+- Full restore script to undo everything
+
+**[Read the CleanYourTV Debloat Guide](CLEANYOURTV_GUIDE.md)**
+
+This debloat process was developed using [CleanYourTV by Gathin23](https://github.com/Gathin23/cleanyourtv) as the launcher and starting point. Full credit to [@Gathin23](https://github.com/Gathin23) for the launcher and the idea.
 
 ---
 
